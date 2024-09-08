@@ -6,4 +6,50 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid #000;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+header ul {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    border-right: 1px solid #000;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
 }
